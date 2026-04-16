@@ -4,16 +4,19 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaGithub } from "react-icons/fa";
+import Test from "../components/Test";
 const Navbar = () => {
+  const []
   return (
     <div>
-      <div className="flex justify-between items-center  p-10">
-        <GiHamburgerMenu className="text-2xl cursor-pointer font-bold bg-white  text-neutral w-9 p-1.5 h-9 rounded-full" />
+      <div className="flex justify-between items-center py-5  px-10">
+        <Test/>
+        <GiHamburgerMenu onClick={} className="text-2xl cursor-pointer font-bold bg-white  text-neutral w-9 p-1.5 h-9 rounded-full" />
         <motion.p
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          className="font-semibold text-xl"
+          className="font-semibold text-xl "
         >
           Mehdi Selmi
         </motion.p>

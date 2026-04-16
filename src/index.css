@@ -9,4 +9,14 @@
 }
 * {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
 }
